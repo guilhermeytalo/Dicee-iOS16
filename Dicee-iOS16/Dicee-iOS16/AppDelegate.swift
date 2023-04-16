@@ -2,12 +2,13 @@
 //  AppDelegate.swift
 //  Dicee-iOS16
 //
-//  Created by Guilherme Ytalo on 15/04/23.
+//  Created by Angela Yu on 11/06/2019 edited by Yt4l0 on 04/15/2023.
+//  Copyright © 2019 London App Brewery. All rights reserved.
 //
 
 import UIKit
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
@@ -15,6 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
+    }
+
+    func applicationWillTerminate(_ application: UIApplication) {
+        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
     // MARK: UISceneSession Lifecycle
